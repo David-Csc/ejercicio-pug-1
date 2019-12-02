@@ -4,7 +4,8 @@ head
   meta(name="viewport" content="width=device-width, initial-scale=1.0")
   meta(http-equiv="X-UA-Compatible" content="ie=edge")
   title Google
-  link(rel="stylesheet", href="#")
+  link(rel="stylesheet", href="css/bootstrap/bootstrap.css")
+  link(rel="stylesheet", href="style.css")
 
 body 
   main
@@ -15,16 +16,16 @@ body
         li: a(href="#") Iniciar Sesión
 
     .container
-      .box.google
+      .box-google.pt-5
         .img-google
-          img(src="img/descarga.png", alt="Google")
-        .box-imput
-          imput(type="text")
-        .box-bottom
-          button
-          button
-        .box.parrafo
-          p Ofrecido por Google en:
+          img.img-fluid(src="img/descarga.png", alt="Google")
+        .box-input
+          input(type="text")
+        .box-button
+          button Buscar con Google
+          button Me siento con suerte
+        .box-parrafo
+          p Ofrecido por Google en: 
             a(href="") Quechua
 
     footer

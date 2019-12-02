@@ -1,0 +1,53 @@
+.list-menu {
+  list-style     : none;
+  display        : flex;
+  justify-content: flex-end;
+  margin-top     : 20px;
+  margin-right   : 20px;
+}
+
+.list-menu li {
+  padding-right: 15px;
+}
+
+.list-menu li a {
+  color: black;
+}
+
+.box-google {
+  display        : flex;
+  justify-content: center;
+  flex-direction : column;
+  align-items    : center;
+}
+
+.box-input {
+  margin-top: 20px;
+}
+
+.box-input input {
+  padding      : 6px 180px;
+  border-radius: 13px;
+  border       : 1px solid silver;
+}
+
+.box-button {
+  margin-top: 20px;
+}
+
+.box-button button {
+  padding: 5px 15px;
+  border : none silver;
+  color  : grey;
+}
+
+.box-button button:hover {
+  color              : #222;
+  transition-duration: 0.5s;
+  border             : 1px solid grey;
+  border-radius      : 3px;
+}
+
+.box-parrafo {
+  margin-top: 20px;
+}

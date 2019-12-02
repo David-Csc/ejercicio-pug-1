@@ -37,17 +37,34 @@
 
 .box-button button {
   padding: 5px 15px;
-  border : none silver;
+  border : 1px solid transparent;
   color  : grey;
 }
 
 .box-button button:hover {
   color              : #222;
-  transition-duration: 0.5s;
+  transition-duration: 0.3s;
   border             : 1px solid grey;
   border-radius      : 3px;
 }
 
 .box-parrafo {
   margin-top: 20px;
+}
+
+.foot-page {}
+
+.box-list {
+  display        : flex;
+  justify-content: space-between;
+}
+
+.list-one {
+  list-style: none;
+  display   : flex;
+}
+
+.list-two {
+  list-style: none;
+  display   : flex;
 }

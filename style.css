@@ -23,10 +23,12 @@
 
 .box-input {
   margin-top: 20px;
+  margin    : 0 auto;
 }
 
 .box-input input {
-  padding      : 6px 180px;
+  width        : 470px;
+  height       : 40px;
   border-radius: 13px;
   border       : 1px solid silver;
 }
@@ -52,19 +54,51 @@
   margin-top: 20px;
 }
 
-.foot-page {}
+.foot-page {
+  position        : fixed;
+  bottom          : 0;
+  width           : 100%;
+  background-color: #f2f2f2;
+  border-top      : 1px solid #e4e4e4;
+}
+
+.foot-text {
+  color      : rgba(0, 0, 0, .54);
+  text-align : left;
+  font-size  : 15px;
+  margin-left: 40px;
+}
 
 .box-list {
   display        : flex;
   justify-content: space-between;
+  border-top     : 1px solid #e4e4e4;
+}
+
+.box-list ul li a {
+  color    : rgba(0, 0, 0, .54);
+  font-size: 15px;
+}
+
+.list-one li :nth-child(1) {
+  margin-left: 0;
 }
 
 .list-one {
   list-style: none;
   display   : flex;
+
+}
+
+.list-one li {
+  margin-left: 15px;
 }
 
 .list-two {
   list-style: none;
   display   : flex;
+}
+
+.list-two li {
+  margin-right: 15px;
 }
